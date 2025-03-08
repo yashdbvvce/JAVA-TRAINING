@@ -2,7 +2,7 @@ package Bank;
 
 public class CastingOfClasses {
     public static void main(String[] args) {
-        // Up Casting Sub to Supe - No Problem
+        // Up Casting Overrinding.Sub to Supe - No Problem
         Account a = new Savings(6000);
         // a.savingprintDetails() // Not possible
         a.printDetails();// Possible
