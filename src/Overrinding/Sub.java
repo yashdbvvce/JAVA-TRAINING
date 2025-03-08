@@ -5,6 +5,7 @@ public class Sub extends Super {
     }
 
     public static void main(String[] args) {
+        // Depends on the object created at right !.
         Super s1 = new Super();
         s1.Virat();
 

@@ -6,6 +6,7 @@ public class Sub extends Super {
     }
 
     public static void main(String[] args) {
+        // Depends on left
         Super s1 = new Super();
         s1.Virat();
 
